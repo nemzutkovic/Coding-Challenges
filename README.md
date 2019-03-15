@@ -8,4 +8,4 @@ There will be a directory for each platform that has coding challenges. For star
 
 ## Other
 
-I'm definitely more of a beginner now, but if there is any problem you'd like to challenge me with, hit me up! Took me a while to realize, but I really enjoying coding challenges.
+I'm definitely more of a beginner now, but if there is any problem you'd like to challenge me with, hit me up! Took me a while to realize, but I really enjoying coding challenges. Lastly, these problems are not optimal solutions. They could be brute force solutions.
