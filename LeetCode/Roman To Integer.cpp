@@ -9,6 +9,5 @@ int romanToInt(string s) {
     else num += numerals[s[i]];
   }
   
-  return num;
-    
+  return num; 
 }
