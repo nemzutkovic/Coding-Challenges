@@ -1,0 +1,77 @@
+C++ NOTES
+ - ALWAYS INIT VARIABLES IF NEED BE! IF YOU DO NOT, GARBAGE COULD BE IN THEM.
+ - num % 10
+   + last digit of a number OR dividing an integer by 10 and returning what is after the decimal (212 % 10 = 2)
+ - num / 10
+   + removes the last decimal value (212 / 10 = 21)
+ - num * 10
+   + adds a decimal value (212 * 10 = 2120)
+ - Know the ASCII Table (Uppercase: 65-90, Lowercase: 97-122)
+ - Converting to binary (num % 2 == 0) append 0 OR (num % 2 == 1) append 1, floor divide num by 2
+
+#include <iostream>
+ - std::cin // Standard in
+ - std::cout // Standard out
+ - std::getline(std::cin, string) **Might need a std::cin.ignore() - finicky** // Reads in line from stdin
+
+#include <string>
+ - std::string // General syntax
+ - str1.append(str2); // Appending one string to the end of another
+ - str.length(); // Returns length of string
+ - str.find(n); // Returns index of character in string
+ - str.substr(n) OR str.substr(start index, number of characters to include) // returns Substring
+
+#include <map>
+ - Declaration: map<type, type> nameofmap;
+ - Initialization (Empty): map<key, value> nampofmape = {};
+ - Initialization (Value): map<key, value> nampofmape = {{key,val},{key2,val2},etc...};
+ - Iteration:     for (auto it = map.begin(); it != map.end(); ++it){}
+   + it is a pointer, that has a first and second for a map data structure.
+   + it->first  points to key
+   + it->second points to value
+
+#include <vector>
+ - Non-index based structure
+ - Declaration: vector<type> myvector;
+ - Access First: myvector.begin();
+ - Access Last: myvector.back();
+ - Add Last: myvector.push_back(n);
+ - Remove Last: myvector.pop_back();
+ - Remove First: myvector.erase(myvector.begin())
+ - Length of Vector: myvector.size();
+ - Adding One Vector To Other: myvector1.insert(myvector1.end(), myvector2.begin(), myvector2.end());
+ - Reverse Vector: reverse(myvector.begin(), myvector.end()) // Might need to #include <algorithim>
+ - Sort Vector: sort(myvector.begin(), myvector.end()) // Might need to #include <algorithim>
+ - Double For Loop: First Iterator Normal, Second Iterator -> (auto j = it->begin(); j != it->end(); ++j)
+
+#include <stack>
+ - Declaration: stack<type> mystack;
+ - Peek: mystack.top();
+ - Push: mystack.push(n);
+ - Pop:  mystack.pop();
+
+ #include <set>:
+ - Declaration: set<type> myset;
+ - Add:    myset.insert(n);
+ - Remove: myset.erase(n);
+ - Size:   myset.size();
+ - Clear:  myset.clear();
+ - Find:   myset.find(n); (Returns index position of element in set)
+
+#include <cmath>
+ - pow(base,power);
+ - sin / cos/ tan (return value is in radians)
+
+#include <iomanip>
+ - setprecision(# of decimalplaces to specify)
+ - M_PI (constant for PI)
+
+#include <algorithim>
+ - std::sort(datastructure.begin(), datastructure.end())
+ - std::reverse(datastructure.begin(), datastructure.end())
+
+NEED TO REVIEW:
+ - SORTING
+ - SEARCHING
+ - SUBSTRINGS
+ - BINARY TREES (!)
