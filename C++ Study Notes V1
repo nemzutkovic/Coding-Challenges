@@ -10,8 +10,6 @@ C++ NOTES
  - Converting to binary (num % 2 == 0) append 0 OR (num % 2 == 1) append 1, floor divide num by 2
 
 #include <iostream>
- - std::cin // Standard in
- - std::cout // Standard out
  - std::getline(std::cin, string) **Might need a std::cin.ignore() - finicky** // Reads in line from stdin
 
 #include <string>

@@ -1,0 +1,9 @@
+// C++ Study Notes V2
+
+Data Types (No Headers) -> int, char, long, float, double
+Conditionals (No Headers) -> if, else if, else || switch, case, default
+
+#include <iostream>
+ - std::cin // Standard in
+ - std::cout // Standard out
+ 
