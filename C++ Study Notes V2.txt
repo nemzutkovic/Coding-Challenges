@@ -1,9 +1,19 @@
 // C++ Study Notes V2
 
-Data Types (No Headers) -> int, char, long, float, double
-Conditionals (No Headers) -> if, else if, else || switch, case, default
+// Extra
+- Be careful when manually allocating de-allocating vector space. Can have garbage, leading/trailing zeros.
+
+// No Headers
+Data Types -> int, char, long, float, double
+Conditionals -> if, else if, else || switch, case, default
+Loops -> for, while
 
 #include <iostream>
  - std::cin // Standard in
  - std::cout // Standard out
  
+#include <vector>
+ - Non-index based structure
+ - Declaration: vector<type> myvector;
+ - Add Last: myvector.push_back(n);
+ - Length of Vector: myvector.size();

@@ -1,5 +1,4 @@
 C++ NOTES
- - ALWAYS INIT VARIABLES IF NEED BE! IF YOU DO NOT, GARBAGE COULD BE IN THEM.
  - num % 10
    + last digit of a number OR dividing an integer by 10 and returning what is after the decimal (212 % 10 = 2)
  - num / 10
@@ -28,15 +27,11 @@ C++ NOTES
    + it->first  points to key
    + it->second points to value
 
-#include <vector>
- - Non-index based structure
- - Declaration: vector<type> myvector;
+#include <vectors>
  - Access First: myvector.begin();
  - Access Last: myvector.back();
- - Add Last: myvector.push_back(n);
  - Remove Last: myvector.pop_back();
  - Remove First: myvector.erase(myvector.begin())
- - Length of Vector: myvector.size();
  - Adding One Vector To Other: myvector1.insert(myvector1.end(), myvector2.begin(), myvector2.end());
  - Reverse Vector: reverse(myvector.begin(), myvector.end()) // Might need to #include <algorithim>
  - Sort Vector: sort(myvector.begin(), myvector.end()) // Might need to #include <algorithim>
